@@ -1,12 +1,17 @@
-define(["three"], function(THREE) {
+define(["three", "detector"], function(THREE, Detector) {
 	'use strict';
+
+	if ( ! Detector.webgl ) {
+		// switch to CSS3d renderer ?
+	}
+	else{
+		init();
+		animate();
+	}
 
 	var camera, scene, renderer, controls;
 	var geometry, material, mesh;
 	var W, H;
-
-	init();
-	animate();
 
 	function init() {
 		W = window.innerWidth,
