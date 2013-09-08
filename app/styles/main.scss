@@ -98,8 +98,7 @@ body {
 /* Social icons */
 @include font-face("fontello", font-files("fontello.woff", "fontello.ttf", "fontello.svg"), "fontello.eot");
 
-.icon-twitter,
-.icon-linkedin {
+.social a {
     display: inline-block;
     text-decoration: none;
     
@@ -133,12 +132,13 @@ body {
     width: 1em;
     height: 1em;
 }
-.icon-twitter:before {
-    content: '\e800';
-}
-.icon-linkedin:before {
-    content: '\e802';
-}
+.icon-github:before { content: '\e801'; }
+.icon-lastfm:before { content: '\e805'; }
+.icon-linkedin:before { content: '\e800'; }
+.icon-tumblr:before { content: '\e803'; }
+.icon-twitter:before { content: '\e802'; }
+.icon-vimeo:before { content: '\e804'; }
+.icon-soundcloud:before { content: '\e806'; }
 
 .browsehappy {
     margin: 0.2em 0;

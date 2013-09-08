@@ -143,10 +143,9 @@ body {
   src: url('/styles/fonts/fontello.eot?#iefix') format('eot'), url('/styles/fonts/fontello.woff') format('woff'), url('/styles/fonts/fontello.ttf') format('truetype'), url('/styles/fonts/fontello.svg') format('svg');
 }
 
-/* line 102, ../../app/styles/main.scss */
+/* line 101, ../../app/styles/main.scss */
 
-.icon-twitter,
-.icon-linkedin {
+.social a {
   display: inline-block;
   text-decoration: none;
   margin: 0 0.5em;
@@ -162,14 +161,13 @@ body {
   font-size: 0.75rem;
 }
 
-/* line 115, ../../app/styles/main.scss */
+/* line 114, ../../app/styles/main.scss */
 
-.icon-twitter:hover,
-.icon-linkedin:hover {
+.social a:hover {
   background-color: lightSeaGreen;
 }
 
-/* line 123, ../../app/styles/main.scss */
+/* line 122, ../../app/styles/main.scss */
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
@@ -186,16 +184,46 @@ body {
   height: 1em;
 }
 
+/* line 135, ../../app/styles/main.scss */
+
+.icon-github:before {
+  content: '\e801';
+}
+
 /* line 136, ../../app/styles/main.scss */
 
-.icon-twitter:before {
+.icon-lastfm:before {
+  content: '\e805';
+}
+
+/* line 137, ../../app/styles/main.scss */
+
+.icon-linkedin:before {
   content: '\e800';
+}
+
+/* line 138, ../../app/styles/main.scss */
+
+.icon-tumblr:before {
+  content: '\e803';
 }
 
 /* line 139, ../../app/styles/main.scss */
 
-.icon-linkedin:before {
+.icon-twitter:before {
   content: '\e802';
+}
+
+/* line 140, ../../app/styles/main.scss */
+
+.icon-vimeo:before {
+  content: '\e804';
+}
+
+/* line 141, ../../app/styles/main.scss */
+
+.icon-soundcloud:before {
+  content: '\e806';
 }
 
 /* line 143, ../../app/styles/main.scss */
