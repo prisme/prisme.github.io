@@ -36,10 +36,16 @@ html, body{
 $text-color : #777;
 
 body {
-    overflow-y: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
     background-color: GhostWhite;
     border: 15px lighten(lightSeaGreen,50%) solid;
-    font-family: 'Open Sans', sans-serif;
 }
 
 #scene{

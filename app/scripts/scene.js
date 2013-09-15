@@ -1,13 +1,5 @@
-define(["three", "detector"], function(THREE, Detector) {
+define(['three', 'detector'], function(THREE, Detector) {
 	'use strict';
-
-	if ( ! Detector.webgl ) {
-		// switch to CSS3d renderer ?
-	}
-	else{
-		init();
-		animate();
-	}
 
 	var camera, scene, renderer, controls;
 	var geometry, material, mesh;
@@ -58,13 +50,23 @@ define(["three", "detector"], function(THREE, Detector) {
 	}
 
 	function onWindowResize() {
+		W = window.innerWidth,
+		H = window.innerHeight;
 		camera.aspect = W / H;
 		camera.updateProjectionMatrix();
-		renderer.setSize(W, H);
+		renderer.setSize(W, H, true);
 		render();
 	}
 
 	function render() {
 		renderer.render(scene, camera);
+	}
+
+	if ( ! Detector.webgl ) {
+		// switch to CSS3d renderer ?
+	}
+	else{
+		init();
+		animate();
 	}
 });
