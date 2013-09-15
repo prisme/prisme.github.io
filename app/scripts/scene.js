@@ -10,7 +10,7 @@ define(['three', 'detector'], function(THREE, Detector) {
 		H = window.innerHeight;
 
 		scene = new THREE.Scene();
-		renderer = new THREE.WebGLRenderer();
+		renderer = new THREE.WebGLRenderer({antialias:true});
 		camera = new THREE.PerspectiveCamera(60, W / H, 1, 5000);
 		camera.position.z = 500;
 
