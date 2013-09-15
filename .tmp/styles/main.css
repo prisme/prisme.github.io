@@ -24,9 +24,15 @@ body {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-/* line 42, ../../app/styles/main.scss */
+/* line 49, ../../app/styles/main.scss */
 
 .container {
   position: relative;
@@ -37,7 +43,7 @@ body {
   border: 15px #d9f8f6 solid;
 }
 
-/* line 51, ../../app/styles/main.scss */
+/* line 58, ../../app/styles/main.scss */
 
 #scene {
   -webkit-transition: opacity 1s ease-in-out;
@@ -57,7 +63,7 @@ body {
 
 /* vCard */
 
-/* line 56, ../../app/styles/main.scss */
+/* line 63, ../../app/styles/main.scss */
 
 .jumbotron {
   position: absolute;
@@ -87,7 +93,7 @@ body {
   opacity: 1;
 }
 
-/* line 72, ../../app/styles/main.scss */
+/* line 79, ../../app/styles/main.scss */
 
 .fn {
   color: #777777;
@@ -96,7 +102,7 @@ body {
 }
 
 @media (max-width: 700px) {
-  /* line 72, ../../app/styles/main.scss */
+  /* line 79, ../../app/styles/main.scss */
 
   .fn {
     font-size: 31px;
@@ -104,7 +110,7 @@ body {
   }
 }
 
-/* line 80, ../../app/styles/main.scss */
+/* line 87, ../../app/styles/main.scss */
 
 .note {
   line-height: 2em;
@@ -114,7 +120,7 @@ body {
 }
 
 @media (max-width: 700px) {
-  /* line 80, ../../app/styles/main.scss */
+  /* line 87, ../../app/styles/main.scss */
 
   .note {
     font-size: 12px;
@@ -122,22 +128,22 @@ body {
   }
 }
 
-/* line 89, ../../app/styles/main.scss */
+/* line 96, ../../app/styles/main.scss */
 
 .note a {
   text-decoration: none;
-  color: lightSeaGreen;
+  color: LightSeaGreen;
   -webkit-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out;
 }
 
-/* line 94, ../../app/styles/main.scss */
+/* line 101, ../../app/styles/main.scss */
 
 .note a:hover {
   color: #188781;
 }
 
-/* line 100, ../../app/styles/main.scss */
+/* line 107, ../../app/styles/main.scss */
 
 .adr {
   display: block;
@@ -151,7 +157,7 @@ body {
   src: url('/styles/fonts/fontello.eot?#iefix') format('eot'), url('/styles/fonts/fontello.woff') format('woff'), url('/styles/fonts/fontello.ttf') format('truetype'), url('/styles/fonts/fontello.svg') format('svg');
 }
 
-/* line 107, ../../app/styles/main.scss */
+/* line 114, ../../app/styles/main.scss */
 
 .social a {
   display: inline-block;
@@ -169,13 +175,13 @@ body {
   font-size: 0.75rem;
 }
 
-/* line 120, ../../app/styles/main.scss */
+/* line 127, ../../app/styles/main.scss */
 
 .social a:hover {
-  background-color: lightSeaGreen;
+  background-color: LightSeaGreen;
 }
 
-/* line 128, ../../app/styles/main.scss */
+/* line 135, ../../app/styles/main.scss */
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
@@ -192,49 +198,49 @@ body {
   height: 1em;
 }
 
-/* line 141, ../../app/styles/main.scss */
+/* line 148, ../../app/styles/main.scss */
 
 .icon-github:before {
   content: '\e801';
 }
 
-/* line 142, ../../app/styles/main.scss */
+/* line 149, ../../app/styles/main.scss */
 
 .icon-lastfm:before {
   content: '\e805';
 }
 
-/* line 143, ../../app/styles/main.scss */
+/* line 150, ../../app/styles/main.scss */
 
 .icon-linkedin:before {
   content: '\e800';
 }
 
-/* line 144, ../../app/styles/main.scss */
+/* line 151, ../../app/styles/main.scss */
 
 .icon-tumblr:before {
   content: '\e803';
 }
 
-/* line 145, ../../app/styles/main.scss */
+/* line 152, ../../app/styles/main.scss */
 
 .icon-twitter:before {
   content: '\e802';
 }
 
-/* line 146, ../../app/styles/main.scss */
+/* line 153, ../../app/styles/main.scss */
 
 .icon-vimeo:before {
   content: '\e804';
 }
 
-/* line 147, ../../app/styles/main.scss */
+/* line 154, ../../app/styles/main.scss */
 
 .icon-soundcloud:before {
   content: '\e806';
 }
 
-/* line 149, ../../app/styles/main.scss */
+/* line 156, ../../app/styles/main.scss */
 
 .browsehappy {
   margin: 0.2em 0;

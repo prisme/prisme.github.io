@@ -2,6 +2,7 @@ require.config({
     paths: {
         jquery: '../bower_components/jquery/jquery',
         three: '../bower_components/threejs/build/three.min',
+        controls: '../bower_components/threejs/examples/js/controls/TrackballControls',
         detector: '../bower_components/threejs/examples/js/Detector'
     },
     shim: {
@@ -9,7 +10,11 @@ require.config({
             exports: 'THREE'
         },
         'detector': {
-            exports: 'Detector'
+            exports: 'detector'
+        },
+        'controls': {
+            exports: 'controls',
+            deps : ['three']
         }
     },
 });

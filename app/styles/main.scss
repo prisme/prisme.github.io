@@ -37,6 +37,13 @@ $text-color : #777;
 
 body {
     font-family: 'Open Sans', sans-serif;
+    // disable text selection highlighting
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .container {
@@ -45,7 +52,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: GhostWhite;
-    border: 15px lighten(lightSeaGreen,50%) solid;
+    border: 15px lighten(LightSeaGreen,50%) solid;
 }
 
 #scene{
@@ -88,11 +95,11 @@ body {
 
     a {
         text-decoration: none;
-        color:  lightSeaGreen;
+        color:  LightSeaGreen;
 
         @include transition( color 0.3s ease-out );
         &:hover{
-            color: darken(lightSeaGreen,10%)
+            color: darken(LightSeaGreen,10%)
         }
     }
 }
@@ -118,7 +125,7 @@ body {
     color: White;
 
     &:hover{
-        background-color: lightSeaGreen;
+        background-color: LightSeaGreen;
     }
 
     @include font-size(12);  

@@ -1,4 +1,4 @@
-define(['three', 'detector'], function(THREE, Detector) {
+define(['three', 'detector', 'controls'], function(THREE, detector, controls) {
 	'use strict';
 
 	var camera, scene, renderer, controls;
@@ -11,17 +11,17 @@ define(['three', 'detector'], function(THREE, Detector) {
 
 		scene = new THREE.Scene();
 		renderer = new THREE.WebGLRenderer({antialias:true});
-		camera = new THREE.PerspectiveCamera(60, W / H, 1, 5000);
+		camera = new THREE.PerspectiveCamera(42, W / H, 1, 5000);
+		renderer.setSize(W, H);
 		camera.position.z = 500;
 
-		renderer.setSize(W, H);
 		var container = document.getElementById('scene')
 		container.appendChild(renderer.domElement);
 		container.className += 'active';
 
-		// controls = new THREE.TrackballControls( camera, renderer.domElement );
-		// controls.rotateSpeed = 0.5;
-		// controls.addEventListener( 'change', render );
+		controls = new THREE.TrackballControls( camera, renderer.domElement );
+		controls.rotateSpeed = 0.2;
+		controls.addEventListener( 'change', render );
 
 		geometry = new THREE.IcosahedronGeometry(400, 0);
 		material = new THREE.MeshNormalMaterial({
@@ -40,7 +40,7 @@ define(['three', 'detector'], function(THREE, Detector) {
 
 	function animate() {
 		requestAnimationFrame(animate);
-		// controls.update();
+		controls.update();
 		var time = Date.now() * 0.0017;
 
 		mesh.rotation.x = time * 0.03;
@@ -62,10 +62,7 @@ define(['three', 'detector'], function(THREE, Detector) {
 		renderer.render(scene, camera);
 	}
 
-	if ( ! Detector.webgl ) {
-		// switch to CSS3d renderer ?
-	}
-	else{
+	if ( Detector.webgl ) {
 		init();
 		animate();
 	}
