@@ -28,3 +28,7 @@ git push origin src
 git checkout master
 git merge src
 git subtree push --prefix dist origin master
+
+You might get an error like this Updates were rejected because the tip of your current branch is behind. You can solve this by force pushing to the remote (be careful though, it will destroy whatever is already there).
+=>
+git push origin `git subtree split --prefix dist master`:master --force
