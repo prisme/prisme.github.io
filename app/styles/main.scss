@@ -119,16 +119,21 @@ body {
     padding: 0.5em;
 
     @include border-radius(100%);
-    @include transition(background-color 0.6s ease-out);
+    @include transition(background-color 0.4s ease-in);
+    @include transition(color 0.2s linear);
 
-    background-color: DimGray;
-    color: White;
+    border-style: solid;
+    border-width: 1px;
+    border-color: DimGray;
+    color : DimGray;
 
     &:hover{
+        border-color: LightSeaGreen;
         background-color: LightSeaGreen;
+        color: white;
     }
 
-    @include font-size(12);  
+    @include font-size(14);  
 }
 
 [class^="icon-"]:before,

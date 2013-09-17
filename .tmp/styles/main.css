@@ -167,21 +167,27 @@ body {
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
   border-radius: 100%;
-  -webkit-transition: background-color 0.6s ease-out;
-  transition: background-color 0.6s ease-out;
-  background-color: DimGray;
-  color: White;
-  font-size: 12px;
-  font-size: 0.75rem;
+  -webkit-transition: background-color 0.4s ease-in;
+  transition: background-color 0.4s ease-in;
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+  border-style: solid;
+  border-width: 1px;
+  border-color: DimGray;
+  color: DimGray;
+  font-size: 14px;
+  font-size: 0.875rem;
 }
 
-/* line 127, ../../app/styles/main.scss */
+/* line 130, ../../app/styles/main.scss */
 
 .social a:hover {
+  border-color: LightSeaGreen;
   background-color: LightSeaGreen;
+  color: white;
 }
 
-/* line 135, ../../app/styles/main.scss */
+/* line 140, ../../app/styles/main.scss */
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
@@ -198,49 +204,49 @@ body {
   height: 1em;
 }
 
-/* line 148, ../../app/styles/main.scss */
+/* line 153, ../../app/styles/main.scss */
 
 .icon-github:before {
   content: '\e801';
 }
 
-/* line 149, ../../app/styles/main.scss */
+/* line 154, ../../app/styles/main.scss */
 
 .icon-lastfm:before {
   content: '\e805';
 }
 
-/* line 150, ../../app/styles/main.scss */
+/* line 155, ../../app/styles/main.scss */
 
 .icon-linkedin:before {
   content: '\e800';
 }
 
-/* line 151, ../../app/styles/main.scss */
+/* line 156, ../../app/styles/main.scss */
 
 .icon-tumblr:before {
   content: '\e803';
 }
 
-/* line 152, ../../app/styles/main.scss */
+/* line 157, ../../app/styles/main.scss */
 
 .icon-twitter:before {
   content: '\e802';
 }
 
-/* line 153, ../../app/styles/main.scss */
+/* line 158, ../../app/styles/main.scss */
 
 .icon-vimeo:before {
   content: '\e804';
 }
 
-/* line 154, ../../app/styles/main.scss */
+/* line 159, ../../app/styles/main.scss */
 
 .icon-soundcloud:before {
   content: '\e806';
 }
 
-/* line 156, ../../app/styles/main.scss */
+/* line 161, ../../app/styles/main.scss */
 
 .browsehappy {
   margin: 0.2em 0;
