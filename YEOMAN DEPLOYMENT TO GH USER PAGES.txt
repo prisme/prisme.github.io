@@ -1,0 +1,30 @@
+[CONFIG]
+subl ~/.gitconfig	
+[push]
+        default = current
+
+[INIT]
+new repo
+new local folder
+yeoman init
+grunt build
+gitignore => rm dist
+git init
+git remote add origin [repo]
+git add dist
+git commit -m "init dist"
+git subtree push --prefix dist origin master
+git checkout -b src
+git add .
+git commit -m "init src"
+git push origin src
+
+[DEV] 
+git checkout src
+grunt
+git add .
+git commit -m "modif"
+git push origin src
+git checkout master
+git merge src
+git subtree push --prefix dist origin master
