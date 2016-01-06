@@ -1,0 +1,244 @@
+{
+    "files": [
+    {
+        "type": "IMAGE",
+        "size": 24,
+        "source": "../img/submenu/stores.jpg"
+    },
+    {   
+        "type": "IMAGE",
+        "size": 16,
+        "source": "../img/submenu/classic.jpg"
+    },
+    {   
+        "type": "IMAGE",
+        "size": 12,
+        "source": "../img/submenu/concept.jpg"
+    },
+    {   
+        "type": "IMAGE",
+        "size": 40,
+        "source": "../img/submenu/rehab.jpg"
+    },
+    {   
+        "type": "IMAGE",
+        "size": 20,
+        "source": "../img/submenu/presse.jpg"
+    },
+    {   
+        "type": "IMAGE",
+        "size": 28,
+        "source": "../img/submenu/limitee.jpg"
+    },
+    {   
+        "type": "IMAGE",
+        "size": 44,
+        "source": "../img/submenu/artistes.jpg"
+    },
+    {   
+        "type": "IMAGE",
+        "size": 16,
+        "source": "../img/submenu/savoirfaire.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 60,
+        "source": "../img/submenu/origines.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 20,
+        "source": "../img/submenu/collaborations.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 44,
+        "source": "../img/galeries/classic/1.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 60,
+        "source": "../img/galeries/classic/2.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 80,
+        "source": "../img/galeries/classic/4.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 60,
+        "source": "../img/galeries/classic/3.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 60,
+        "source": "../img/galeries/classic/front/1.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 88,
+        "source": "../img/galeries/classic/front/2.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 100,
+        "source": "../img/galeries/classic/front/4.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 76,
+        "source": "../img/galeries/classic/front/3.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 8,
+        "source": "../img/galeries/classic/thumb/1.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 8,
+        "source": "../img/galeries/classic/thumb/2.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 8,
+        "source": "../img/galeries/classic/thumb/4.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 8,
+        "source": "../img/galeries/classic/thumb/3.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 64,
+        "source": "../img/galeries/limited/1.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 72,
+        "source": "../img/galeries/limited/2.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 72,
+        "source": "../img/galeries/limited/4.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 36,
+        "source": "../img/galeries/limited/3.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 128,
+        "source": "../img/galeries/limited/front/1.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 88,
+        "source": "../img/galeries/limited/front/2.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 68,
+        "source": "../img/galeries/limited/front/4.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 48,
+        "source": "../img/galeries/limited/front/3.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 8,
+        "source": "../img/galeries/limited/thumb/1.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 8,
+        "source": "../img/galeries/limited/thumb/2.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 8,
+        "source": "../img/galeries/limited/thumb/4.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 8,
+        "source": "../img/galeries/limited/thumb/3.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 112,
+        "source": "../img/galeries/rehab/1.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 156,
+        "source": "../img/galeries/rehab/2.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 96,
+        "source": "../img/galeries/rehab/4.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 176,
+        "source": "../img/galeries/rehab/3.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 92,
+        "source": "../img/galeries/rehab/front/1.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 128,
+        "source": "../img/galeries/rehab/front/2.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 104,
+        "source": "../img/galeries/rehab/front/4.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 152,
+        "source": "../img/galeries/rehab/front/3.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 8,
+        "source": "../img/galeries/rehab/thumb/1.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 8,
+        "source": "../img/galeries/rehab/thumb/2.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 8,
+        "source": "../img/galeries/rehab/thumb/4.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 8,
+        "source": "../img/galeries/rehab/thumb/3.jpg"
+    },
+    {
+        "type": "IMAGE",
+        "size": 4,
+        "source": "../img/fleches.png"
+    },
+    {
+        "type": "IMAGE",
+        "size": 56,
+        "source": "../img/3_Masks_Savoir_faire.jpg"
+    }
+    ]
+}
