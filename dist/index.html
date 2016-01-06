@@ -11,8 +11,12 @@
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="styles/5bb4117e.main.css">
-        <script src="scripts/vendor/f7f27360.modernizr.js"></script>
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
     </head>
     <body>
         <!--[if lt IE 10]>
@@ -39,6 +43,8 @@
             </div>
         </div>
         
-        <script data-main="scripts/8cbc0f59.main" src="bower_components/requirejs/require.js"></script>
+        <!-- build:js scripts/main.js -->
+        <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+        <!-- endbuild -->
 </body>
 </html>
